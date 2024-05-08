@@ -8,7 +8,7 @@ public class NetworkingServer {
         ServerSocket server = null;
         Socket client;
 
-        int portNumber = 1234;
+        int portNumber = 55622; //för ports mellan 49152-65535 är dynamiska och har då mindre chans att förstöra för andra på nätverket
 
         if (args.length >= 1) {
             portNumber = Integer.parseInt(args[0]);

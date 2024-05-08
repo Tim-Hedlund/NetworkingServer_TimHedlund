@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc9e0-8136-4720-a111-714a2739da68" name="Changes" comment="Skrivit ungefär halva koden">
+    <list default="true" id="ef2cc9e0-8136-4720-a111-714a2739da68" name="Changes" comment="Server klar!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NetworkingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetworkingServer.java" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715155212101</updated>
-      <workItem from="1715155213274" duration="1526000" />
+      <workItem from="1715155213274" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="Skrivit ungefär halva koden">
       <created>1715156353681</created>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715156353681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Server klar!">
+      <created>1715156800735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715156800735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Skrivit ungefär halva koden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skrivit ungefär halva koden" />
+    <MESSAGE value="Server klar!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server klar!" />
   </component>
 </project>
