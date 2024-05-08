@@ -42,8 +42,27 @@ public class NetworkingServer {
                 System.out.println("Message recieved from client = " + msgFromClient);
 
                 //send response to client
+                if (msgFromClient != null && !msgFromClient.equalsIgnoreCase("bye")) {
 
-            } catch () {
+                    OutputStream clientOut = client.getOutputStream();
+                    PrintWriter pw = new PrintWriter(clientOut, true);
+                    String ansMsg = "Hello, " + msgFromClient;
+                    pw.println(ansMsg);
+                }
+
+                //close sockets
+                if (msgFromClient != null && msgFromClient.equalsIgnoreCase("bye")) {
+
+                    server.close();
+                    client.close();
+                    break;
+
+                }
+
+            } catch (IOException ie) {
+
+                //tror det här är ett lämpligt meddelande
+                System.out.println("Connection error: "+ ie.getMessage());
 
             }
 
